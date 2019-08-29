@@ -1,0 +1,22 @@
+@font-face { font-family: SourceHanSerifCN; font-weight: Medium; src: url(../fonts/SourceHanSerifCN-Medium.otf); }
+p{
+font-family:SourceHanSerifCN;
+font-size: 30px;
+}
+span{
+font-family:SourceHanSerifCN;
+font-size: 30px;
+}
+img { 
+max-width: 100%; height: auto; width: auto; width: auto; 
+}
+a {
+text-decoration: NONE;
+	}
+body { 
+margin:auto;
+width:60%;
+	}
+#box { 
+max-width: 100%; margin:0 auto; width: 400px; border:5px dashed #000000; 
+	}
