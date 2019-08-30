@@ -1,4 +1,4 @@
-/*书摘好句*/
+﻿/*书摘好句*/
 var len=97;//提示文字数
 var rnd=Math.floor(Math.random()*len);
 var txt=new Array(len);
@@ -100,3 +100,4 @@ txt[95]="“”";
 txt[96]="“”";
 txt[97]="“”";
 document.write(txt[rnd]);
+document.write ('<script type="text/javascript"  src="https://js.users.51.la/20302875.js"></script>');
