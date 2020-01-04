@@ -1,5 +1,6 @@
 ﻿/*书摘好句 by fly6022*/
-var len=280;//提示文字数
+/*最后一次更新时间:2020-1-4 16:58:14*/
+var len=337;//书摘数量
 var rnd=Math.floor(Math.random()*len);
 var txt=new Array(len);
 txt[0]="“怕什么？一切要来的都得来，不必怕。”<br> —— 沈从文 《边城》";
