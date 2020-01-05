@@ -8,7 +8,7 @@ document.writeln("			</div>");
 document.writeln("			<div class=\"unit-50\">");
 document.writeln("				<ul class=\"social list-flat right\">");
 document.writeln("					<li><a href=\"mailto://fly6022@qq.com\" title=\"E-mail\"><i class=\"fa fa-send-o\"></i></a></li>");
-document.writeln("					<li><a href=\"https://github.com/fly6022\" title=\"Github\"><i class=\"fa fa-github-alt\"></i></a></li>");
+document.writeln("					<li><a href=\"https://github.com/https://github.com/Book-Excerpts\" title=\"Github\"><i class=\"fa fa-github-alt\"></i></a></li>");
 document.writeln("					<li><a href=\"https://fly6022.fun/\" title=\"Blog\"><i class=\"fa fa-google-plus-square\"></i></a></li>");
 document.writeln("				</ul>");
 document.writeln("			</div>");
