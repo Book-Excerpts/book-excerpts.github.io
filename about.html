@@ -1,12 +1,12 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
 <head>
-<title>『书摘。』 | 捐赠</title>
+<title>『书摘。』 | 关于</title>
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta itemprop="name" content="『书摘。』 | 捐赠"/>
+<meta itemprop="name" content="『书摘。』 | 关于"/>
 <meta itemprop="image" content="https://book-excerpts.github.io/images/logo.png"/>
-<meta name="description" content="『书摘。』网站是（Github：fly6022）制作的书籍好句摘录网站，网站收录了古今中外名著/影视/动漫中的好句。">
+<meta name="description" content="『书摘。』网站是（Github：fly6022）制作的书籍好句摘录网站，网站收录了古今中外名著、影视、动漫中的好句。">
 <meta name="author" content="">
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link rel="stylesheet" href="css/kube.min.css" />
@@ -15,7 +15,7 @@
 <link rel="shortcut icon" href="img/favicon.png" />
 <link href='https://fonts.googleapis.com/css?family=Playfair+Display+SC:700' rel='stylesheet' type='text/css'>
 <link href='https://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css">
 <style>
 	.intro h1:before {
 		/* Edit this with your name or anything else */
@@ -37,27 +37,29 @@
 </div>
 
 <!-- Work Experience -->
-<div class="skills section second" id="donate">
+<div class="work section second" id="link">
 	<div class="container">
-		<center><h1>🎈 喜欢？那就捐赠我们吧。</h1></center>
+	  <center>
+		  <h1>📰 关于</h1></center>
 		<ul class="skill-list list-flat">
-			<li>捐赠方式</li>
-			<li><a href="img/donate/wechanqr.jpg" target="_blank">微信支付-Wechat Pay</a> / <a href="img/donate/qqpayqr.png" target="_blank">QQ支付-QQ Pay</a> / <a href="img/donate/alipayqr.jpg" target="_blank">支付宝支付-AliPay</a></li>
-		</ul>
-		<ul class="skill-list list-flat">
-		  <li>捐赠者名单</li>
-			<li>👉<a href="#juanzengzhe" target="_blank">点我查看</a>👈</li>
+			<li>关于『书摘。』</li>
+			<li>『书摘。』是（Github：<a href="https://github.com/fly6022/" target="_blank">fly6022</a>）于2019年8月29日编写的书籍好句摘录网站，网站收录了古今中外名著、影视、动漫中的好句。</li>
+			<br>
+			<li>使用『书摘。』</li>
+			<li>网站使用方法非常简单，仅仅需要刷新网页便可以更新&ldquo;书摘好句&rdquo;。同时，你也可以将我们的“好句”插件调用到您自己的网站。 </li>
+			<br>
+			<li></li>
 		</ul>
 	</div>
 </div>
 
-<div class="work section second" id="juanzengzhe">
+<div class="work section second" id="talk">	
 	<div class="container">
-		<center><h1>🙏 鸣谢</h1></center>
-		<center><div class="table-wrapper"><table class="alt"><thead><tr><th>捐赠者</th><th>捐赠金额</th><th>捐赠留言</th><th>捐赠渠道</th><th>捐赠时间</th></tr></thead><tbody><tr><td>匿名用户</td><td>￥10.00</td><td>无捐赠留言。</td><td>Wechat-微信二维码支付</td><td>2019-10-13 12:35:00</td></tr></tbody></table></div></center>
+	<center><h1>📃 评论</h1></center>
+	<div id="gitalk-container"></div>
 	</div>
 </div>
-
+	
 <div class="quote">
 	<div class="container text-centered">
 		<h1><script src="note/gushi-debug.js"></script></h1>
@@ -79,5 +81,6 @@
 
 	typeSpeed:90,backDelay:700,contentType:"html",loop:!0,resetCallback:function(){newTyped()}}),$(".reset").click(function(){$("#typed").typed("reset")})});
 </script>
+<script src="gitalk.js"></script>	
 </body>
 </html>

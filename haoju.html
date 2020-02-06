@@ -6,7 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta itemprop="name" content="『书摘。』 | 好句"/>
 <meta itemprop="image" content="https://book-excerpts.github.io/images/logo.png"/>
-<meta name="description" content="『书摘。』网站是（Github：fly6022）于2019年8月29日编写的书籍好句摘录网站，网站收录了古今中外名著/影视/动漫中的好句。">
+<meta name="description" content="『书摘。』网站是（Github：fly6022）制作的书籍好句摘录网站，网站收录了古今中外名著/影视/动漫中的好句。">
 <meta name="author" content="">
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link rel="stylesheet" href="css/kube.min.css" />
@@ -72,18 +72,6 @@
 
 	typeSpeed:90,backDelay:700,contentType:"html",loop:!0,resetCallback:function(){newTyped()}}),$(".reset").click(function(){$("#typed").typed("reset")})});
 </script>
-<script>
-	const gitalk = new Gitalk({
-  clientID: '1daf307921f9e762e83f',
-  clientSecret: '82f60af1acc31ebdbd173c9974185a3a1f52103e',
-  repo: 'book-excerpts.github.io',
-  owner: 'fly6022',
-  admin: 'fly6022',
-  id: location.pathname,      // Ensure uniqueness and length less than 50
-  distractionFreeMode: false  // Facebook-like distraction free mode
-})
-
-gitalk.render('gitalk-container')
-</script>
+<script src="gitalk.js"></script>	
 </body>
 </html>
