@@ -10,6 +10,7 @@ document.writeln("					<li><a href=\"/haoju.html\">好句</a></li>");
 document.writeln("					<li><a href=\"/haoduan.html\">好段</a></li>");
 document.writeln("					<li><a href=\"/donate.html\">捐赠</a></li>");
 document.writeln("					<li><a href=\"/link.html\">调用</a></li>");
+document.writeln("					<li><a href=\"/about.html\">关于</a></li>");
 document.writeln("				</ul>");
 document.writeln("			</nav>");
 document.writeln("		</header>");
