@@ -5,7 +5,7 @@ var title = location.pathname.substr(0, 50); // 如果参数超过50个字符，
 const gitalk = new Gitalk( {
 clientID: '1daf307921f9e762e83f',
 clientSecret: '82f60af1acc31ebdbd173c9974185a3a1f52103e',
-repo: 'book.fly6022.fun',
+repo: 'book-excerpts.github.io',
 owner: 'Book-Excerpts',
 admin: 'fly6022',
 id: title,      // Ensure uniqueness and length less than 50
