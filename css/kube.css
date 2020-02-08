@@ -14,7 +14,7 @@
   box-sizing: border-box;
 }
 html {
-  font-family: sans-serif;
+  font-family: "SourceHanSerifCN";
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
 }
@@ -245,7 +245,7 @@ img {
 /* =Typography
 -----------------------------------------------------------------------------*/
 body {
-  font-family: "Helvetica Neue", Helvetica, Tahoma, sans-serif;
+  font-family: "SourceHanSerifCN";
   font-size: 0.9375em;
   line-height: 1.65em;
   background: #ffffff;
@@ -274,7 +274,7 @@ h6,
 .h4,
 .h5,
 .h6 {
-  font-family: "Helvetica Neue", Helvetica, Tahoma, sans-serif;
+  font-family: "SourceHanSerifCN";
   font-weight: bold;
   color: #000000;
   text-rendering: optimizeLegibility;
@@ -461,7 +461,7 @@ var,
 output {
   font-size: 90%;
   font-style: normal;
-  font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
+  font-family: "SourceHanSerifCN";
 }
 pre {
   margin-top: 1.65em;
@@ -509,7 +509,7 @@ button:focus {
 }
 textarea,
 select {
-  font-family: "Helvetica Neue", Helvetica, Tahoma, sans-serif;
+  font-family: "SourceHanSerifCN";
   font-size: 1em;
   box-shadow: none;
 }
@@ -534,7 +534,7 @@ input[type="color"],
 input[type="time"],
 input[type="search"],
 input[type="datetime-local"] {
-  font-family: "Helvetica Neue", Helvetica, Tahoma, sans-serif;
+  font-family: "SourceHanSerifCN";
   font-size: 1em;
   box-shadow: none;
   padding: 0.3em 0.35em;
