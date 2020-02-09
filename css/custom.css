@@ -3,11 +3,11 @@
  *  License: Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)
  */
 h1, h2, h3, h4, h5, h6 {
-  font-family: "SourceHanSerifCN";
+  font-family: "Noto Serif SC";
   color: #333333; }
 
 a, p, li {
-  font-family: "SourceHanSerifCN";
+  font-family: "Noto Serif SC";
   color: #4e4e4e;
   font-size: 1em;
   line-height: 1.75em; }

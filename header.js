@@ -1,4 +1,5 @@
-﻿document.writeln("		<header class=\"group top-nav\">");
+﻿document.write("<link rel=\"stylesheet\" href=\"https:\/\/fonts.googleapis.com\/css?family=Noto+Serif+SC:200,300,400,500,600,700,900\">");
+document.writeln("		<header class=\"group top-nav\">");
 document.writeln("			<div class=\"navigation-toggle\" data-tools=\"navigation-toggle\" data-target=\"#navbar-1\">");
 document.writeln("				<span class=\"logo\">『书摘。』</span>");
 document.writeln("			</div>");
