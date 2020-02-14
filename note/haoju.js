@@ -2,8 +2,8 @@
 /* 本插件开源遵循 MIT 协议 */
 
 /* 最后编辑者：fly6022 */
-/*最后更新时间:2020-1-9 15:49:23*/
-var len=397;//书摘数量
+/*最后更新时间:2020-2-14 13:37:00*/
+var len=397;//好句数量
 var rnd=Math.floor(Math.random()*len);
 var txt=new Array(len);
 txt[0]="“怕什么？一切要来的都得来，不必怕。”<br> —— 沈从文 《边城》";
@@ -402,4 +402,4 @@ txt[394]="“就经验性来说，人强烈追求什么的时候，那东西基�
 txt[395]="“平日不修善果，只爱杀人放火。忽地顿开金绳，这里扯断玉锁。钱塘江上潮信来，今日方知我是我。”<br>—— 《水浒传》";
 txt[396]="“被爱，意味着被消耗，被燃成灰烬。爱，则意味着永不枯熄的明灯放射光芒。被爱是转瞬即逝，爱则是永存不灭。”<br>—— 《马尔特手记》";
 document.write(txt[rnd]);
-document.write ('<script type="text/javascript" src="https://js.users.51.la/20302875.js"></script>');
+document.write ('<script type="text/javascript" src="https://js.users.51.la/20302875.js"></script>');// 浏览统计

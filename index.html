@@ -14,12 +14,30 @@
 <link rel="stylesheet" href="css/custom.css" />
 <link rel="shortcut icon" href="img/favicon.png" />
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css">
+<link rel="stylesheet" href="css/duihuakuang.css">
 <!--<style>
 	.intro h1:before {
 		/* Edit this with your name or anything else */
 		content: '';
 	}
 </style>-->
+	<script>
+		function displayDate()
+			{
+		document.getElementById("duihuakuan").innerHTML=Date();
+			}
+        {
+		Dialog
+			({
+				title: "遇见，『书摘。』",
+				content: "<center>感谢你，<br>在漫漫网络中找到了『书摘。』。<br><br>人们早已沉溺于众多的电子设备中，<br>渐渐地，只有越来越少的人去关注这字里行间中透露的真情……<br>书籍是什么？<br>难道仅仅是字+纸的结合吗？",
+				width: 300,
+				height: 400,
+				autoClose: 20000,
+				showButton: false
+			});
+		}
+	</script>
 </head>
 <body>
 <div class="main-nav">
@@ -79,6 +97,16 @@
 		</ul>
 	</div>
 </div>
+	
+<div class="work section second" id="talk">	
+	<div class="container">
+		<h1>📜 一封信</h1>
+	<ul class="skill-list list-flat">
+			<li>这是『书摘。』给你的一封信。</li><br>
+			<div id="duihuakuang"><button>查看</button></div>
+		</ul>
+	</div>
+</div>
 		
 <div class="work section second" id="talk">	
 	<div class="container">
@@ -90,7 +118,7 @@
 <!-- Quote -->
 <div class="quote">
 	<div class="container text-centered">
-		<h1><script src="note/gushi.js"></script></h1>
+		<h1><script src="note/shici.js"></script></h1>
 	</div>
 </div>
 
@@ -109,6 +137,7 @@
 
 	typeSpeed:90,backDelay:700,contentType:"html",loop:!0,resetCallback:function(){newTyped()}}),$(".reset").click(function(){$("#typed").typed("reset")})});
 </script>
-<script src="gitalk.js"></script>	
+<script src="gitalk.js"></script>
+<script src="js/duihuakuang.js"></script> 
 </body>
 </html>
