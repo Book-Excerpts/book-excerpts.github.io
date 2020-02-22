@@ -14,30 +14,6 @@
 <link rel="stylesheet" href="css/custom.css" />
 <link rel="shortcut icon" href="img/favicon.png" />
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css">
-<link rel="stylesheet" href="css/duihuakuang.css">
-<!--<style>
-	.intro h1:before {
-		/* Edit this with your name or anything else */
-		content: '';
-	}
-</style>-->
-	<script>
-		function displayDate()
-			{
-		document.getElementById("duihuakuan").innerHTML=Date();
-			}
-        {
-		Dialog
-			({
-				title: "遇见，『书摘。』",
-				content: "<center>感谢你，<br>在漫漫网络中找到了『书摘。』。<br><br>人们早已沉溺于众多的电子设备中，<br>渐渐地，只有越来越少的人去关注这字里行间中透露的真情……<br>书籍是什么？<br>难道仅仅是字+纸的结合吗？",
-				width: 300,
-				height: 400,
-				autoClose: 20000,
-				showButton: false
-			});
-		}
-	</script>
 </head>
 <body>
 <div class="main-nav">
@@ -51,29 +27,28 @@
 	  <p><script language="javaScript">now = new Date();hour = now.getHours();if(hour < 6){document.write("🌙 凌晨好！")}else if (hour < 9){document.write("☀ 早上好！")}else if (hour < 12){document.write("☀ 上午好！")}else if (hour < 14){document.write("☀ 中午好！")}else if (hour < 17){document.write("下午好！")}else if (hour < 19){document.write("☀ 傍晚好！")}else if (hour < 22){document.write("🌙 晚上好！")}else {document.write("🌙 夜里好！")}</script>亲爱的读者朋友。这里是『书摘。』。</p>
 		<div class="units-row units-split wrap">
 			<div class="unit-100">
-				<center><h1><span><strong>『书摘。』好句摘录 </strong></span></h1></center>
+				<center><h1><span><strong>『书摘。』</strong></span></h1></center>
 			</div>
 			<p>『书摘。』是（Github：<a href="https://github.com/fly6022/" target="_blank">fly6022</a>）于2019年8月29日编写的书籍好句摘录网站，网站收录了古今中外名著/影视/动漫中的好句。网站使用方法非常简单，仅仅需要刷新网页便可以更新&ldquo;书摘好句&rdquo;。同时，你也可以将&ldquo;书摘好句&rdquo;调用到您自己的网站。</p>
 		</div>
 	</div>
 </div>
 
-<div class="work section second" id="haoju">
+<div class="work section second">
 	<div class="container">
 		<h1>📖 为您推荐DE好句</h1>
-		<center><p><script src="note/haoju.js"></script></p></center>
+		<center><div id="haoju"><script src="note/haoju.js"></script></div></center>
 	</div>
 </div>
 
-<div class="award section second" id="haoduan">
+<div class="award section second">
 	<div class="container">
 		<h1>🌈 为您推荐DE好段</h1>
-		<center>
-		  <p>╰(￣ω￣ｏ) 此功能还没有开放呢，敬请期待！</p></center>
+		<center><div id="haoduan"><script src="note/haoduan.js"></script></div></center>
 	</div>
 </div>
 
-<div class="skills section second" id="juanzeng">
+<div class="skills section second">
 	<div class="container">
 		<h1>🎈 喜欢？那就捐赠我们吧。</h1>
 		<ul class="skill-list list-flat">
@@ -87,7 +62,7 @@
 	</div>
 </div>
 	
-<div class="work section second" id="link">
+<div class="work section second">
 	<div class="container">
 		<h1>🚩 调用</h1>
 		<ul class="skill-list list-flat">
@@ -98,23 +73,23 @@
 	</div>
 </div>
 	
-<div class="work section second" id="talk">	
+<div class="work section second">	
 	<div class="container">
 		<h1>📜 一封信</h1>
 	<ul class="skill-list list-flat">
-			<li>这是『书摘。』给你的一封信。</li><br>
-			<div id="duihuakuang"><button>查看</button></div>
+			<li>这是『书摘。』致您的一封信。</li><br>
+			<div><a href="letter.html" target="_blank">查看</a></div>
 		</ul>
 	</div>
 </div>
 		
-<div class="work section second" id="talk">	
+<div class="work section second">	
 	<div class="container">
 		<h1>📃 评论</h1>
 	<div id="gitalk-container"></div>
 	</div>
 </div>
-
+    
 <!-- Quote -->
 <div class="quote">
 	<div class="container text-centered">
@@ -137,7 +112,6 @@
 
 	typeSpeed:90,backDelay:700,contentType:"html",loop:!0,resetCallback:function(){newTyped()}}),$(".reset").click(function(){$("#typed").typed("reset")})});
 </script>
-<script src="gitalk.js"></script>
-<script src="js/duihuakuang.js"></script> 
+<script src="gitalk.js"></script> 
 </body>
 </html>

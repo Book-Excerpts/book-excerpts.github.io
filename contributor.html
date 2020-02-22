@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>『书摘。』 | 好段</title>
+<title>『书摘。』 | 贡献者</title>
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta itemprop="name" content="『书摘。』 | 好段"/>
+<meta itemprop="name" content="『书摘。』 | 贡献者"/>
 <meta itemprop="image" content="https://book-excerpts.github.io/images/logo.png"/>
 <meta name="description" content="『书摘。』网站是（Github：fly6022）制作的书籍好句摘录网站，网站收录了古今中外名著/影视/动漫中的好句。">
 <meta name="author" content="">
@@ -35,20 +35,31 @@
 </div>
 
 <!-- Work Experience -->
-<div class="award section second">
+
+<div class="work section second" id="gongxianzhe">
 	<div class="container">
-		<center><h1>🌈 为您推荐DE好段</h1></center>
-		<center><div id="haoduan"><script src="note/haoduan.js"></script></div></center>
+		<center><h1>👍 贡献者</h1></center>
+        <center>
+          <p>以下是在『书摘。』建设过程当中对『书摘。』做出突出贡献的贡献者。<br>感谢你们！</p>
+        </center>
+		<center><div class="table-wrapper"><table class="alt"><thead><tr>
+		  <th>&nbsp;</th><th>&nbsp;</th><th>&nbsp;</th><th>&nbsp;</th><th>&nbsp;</th></tr></thead><tbody><tr>
+      <td>fly6022</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr></tbody></table></div></center>
+	</div>
+</div>
+    
+<div class="work section second" id="gongxian">
+	<div class="container">
+		<center><h1>📌 如何成为贡献者？</h1></center>
+        <center>
+          <p>贡献者与捐赠者不同，贡献者是参与到『书摘。』的插件设计与制作的人员。<br>
+          不要担心自己的能力是否不足，只要你热爱文学、热爱编程，就可以加入我们的制作团队。</p>
+        </center>
+          <p>『书摘。』Github：<a href="https://github.com/Book-Excerpts" target="_blank">https://github.com/Book-Excerpts</a></p>
+		<center></center>
 	</div>
 </div>
 
-<div class="work section second" id="talk">	
-	<div class="container">
-	<center><h1>📃 评论</h1></center>
-	<div id="gitalk-container"></div>
-	</div>
-</div>
-	
 <div class="quote">
 	<div class="container text-centered">
 		<h1><script src="note/shici.js"></script></h1>
@@ -70,6 +81,5 @@
 
 	typeSpeed:90,backDelay:700,contentType:"html",loop:!0,resetCallback:function(){newTyped()}}),$(".reset").click(function(){$("#typed").typed("reset")})});
 </script>
-<script src="gitalk.js"></script>		
 </body>
 </html>

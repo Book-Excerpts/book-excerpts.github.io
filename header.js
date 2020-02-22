@@ -9,6 +9,7 @@ document.writeln("					<li class=\"active\"><a href=\"/index.html\">『书摘。
 document.writeln("					<li><a href=\"/index.html\">首页</a></li>");
 document.writeln("					<li><a href=\"/haoju.html\">好句</a></li>");
 document.writeln("					<li><a href=\"/haoduan.html\">好段</a></li>");
+document.writeln("					<li><a href=\"/contributor.html\">贡献者</a></li>");
 document.writeln("					<li><a href=\"/donate.html\">捐赠</a></li>");
 document.writeln("					<li><a href=\"/link.html\">调用</a></li>");
 document.writeln("					<li><a href=\"/about.html\">关于</a></li>");
