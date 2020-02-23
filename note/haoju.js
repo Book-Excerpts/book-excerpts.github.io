@@ -402,5 +402,6 @@ var haoju=new Array(len);
     haoju[394]="“就经验性来说，人强烈追求什么的时候，那东西基本上是不来的， 而当你极力回避它的时候，它却自然找到头上。”<br>—— 《海边的卡夫卡》";
     haoju[395]="“平日不修善果，只爱杀人放火。忽地顿开金绳，这里扯断玉锁。钱塘江上潮信来，今日方知我是我。”<br>—— 《水浒传》";
     haoju[396]="“被爱，意味着被消耗，被燃成灰烬。爱，则意味着永不枯熄的明灯放射光芒。被爱是转瞬即逝，爱则是永存不灭。”<br>—— 《马尔特手记》";
-document.write(haoju[rnd]);
+document.getElementById("haoju").innerHTML = "<center>" + haoju[rnd] + "</center>";
+document.write("<link rel=\"stylesheet\" href=\"https:\/\/fonts.googleapis.com\/css?family=Noto+Serif+SC:200,300,400,500,600,700,900\">");
 document.write ('<script type="text/javascript" src="https://js.users.51.la/20302875.js"></script>'); // 浏览统计
