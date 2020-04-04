@@ -1,0 +1,10 @@
+document.writeln("  <script>");
+document.writeln("   window.onload = function() {");
+document.writeln("     setTimeout(function() {");
+document.writeln("            let script = document.createElement(\"script\");");
+document.writeln("            script.setAttribute(\"async\", \"\");");
+document.writeln("            script.src = \"//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js\";");
+document.writeln("            document.body.appendChild(script);");
+document.writeln("      }, 2e3);");
+document.writeln("  }");
+document.writeln("  <\/script>");
