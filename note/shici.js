@@ -3,8 +3,9 @@
 
 /* 最后编辑者：fly6022 */
 /*最后更新时间:2020-2-14 13:38:44*/
+
 function shici() {
-    var len=27;//诗词数量
+    var len=99;//诗词数量
     var rnd=Math.floor(Math.random()*len);
     var shici=new Array(len);
         shici[0]="“一春梦雨常飘瓦，尽日灵风不满旗。”<br>—— 唐代：李商隐 《重过圣女祠》";
@@ -34,6 +35,78 @@ function shici() {
         shici[24]="“山中何事？松花酿酒，春水煎茶。”<br>—— 张可久 《人月圆 山中书事》";
         shici[25]="“愿为西南风，长逝入君怀。”<br>—— 曹植 《明月上高楼》";
         shici[26]="“后来春雨落汴京，只君一人雨中停。”<br>—— 黄仁宇 《汴京残梦》";
+        shici[27]="“”";
+        shici[28]="“”";
+        shici[29]="“”";
+        shici[30]="“”";
+        shici[31]="“”";
+        shici[32]="“”";
+        shici[33]="“”";
+        shici[34]="“”";
+        shici[35]="“”";
+        shici[36]="“”";
+        shici[37]="“”";
+        shici[38]="“”";
+        shici[39]="“”";
+        shici[40]="“”";
+        shici[41]="“”";
+        shici[42]="“”";
+        shici[43]="“”";
+        shici[44]="“”";
+        shici[45]="“”";
+        shici[46]="“”";
+        shici[47]="“”";
+        shici[48]="“”";
+        shici[49]="“”";
+        shici[50]="“”";
+        shici[51]="“”";
+        shici[52]="“”";
+        shici[53]="“”";
+        shici[54]="“”";
+        shici[55]="“”";
+        shici[56]="“”";
+        shici[57]="“”";
+        shici[58]="“”";
+        shici[59]="“”";
+        shici[60]="“”";
+        shici[61]="“”";
+        shici[62]="“”";
+        shici[63]="“”";
+        shici[64]="“”";
+        shici[65]="“”";
+        shici[66]="“”";
+        shici[67]="“”";
+        shici[68]="“”";
+        shici[69]="“”";
+        shici[70]="“”";
+        shici[71]="“”";
+        shici[72]="“”";
+        shici[73]="“”";
+        shici[74]="“”";
+        shici[75]="“”";
+        shici[76]="“”";
+        shici[77]="“”";
+        shici[78]="“”";
+        shici[79]="“”";
+        shici[80]="“”";
+        shici[81]="“”";
+        shici[82]="“”";
+        shici[83]="“”";
+        shici[84]="“”";
+        shici[85]="“”";
+        shici[86]="“”";
+        shici[87]="“”";
+        shici[88]="“”";
+        shici[89]="“”";
+        shici[90]="“”";
+        shici[91]="“”";
+        shici[92]="“”";
+        shici[93]="“”";
+        shici[94]="“”";
+        shici[95]="“”";
+        shici[96]="“”";
+        shici[97]="“”";
+        shici[98]="“”";
     document.getElementById("shici").innerHTML = "<center>" + shici[rnd] + "</center>";
 }
 
