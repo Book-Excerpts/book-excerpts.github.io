@@ -5,7 +5,7 @@
 
 function gethaojudata() {  
     
-    var haojudata = ["note/1.js","note/2.js"]; // 枚举好句数据源
+    var haojudata = ["note/haoju/1.js","note/haoju/2.js"]; // 枚举好句数据源
 
     var js = document.createElement("script"); 
      js.src = "https://book.fly6022.fun/" + haojudata[Math.floor(Math.random()*2)]; // 生成随机数、寻找枚举对象并填充HTML标签参数，注意，本地测试请注意修改网站URL！
