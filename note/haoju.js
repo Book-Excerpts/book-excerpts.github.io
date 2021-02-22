@@ -8,7 +8,7 @@ function gethaojudata() {
     var haojudata = ["src/haoju/1.js","src/haoju/2.js"]; // 枚举好句数据源
 
     var js = document.createElement("script"); 
-     js.src = haojudata[Math.floor(Math.random()*2)]; // 生成随机数、寻找枚举对象并填充HTML标签参数
+     js.src = "https://book.fly6022.fun/" + haojudata[Math.floor(Math.random()*2)]; // 生成随机数、寻找枚举对象并填充HTML标签参数，注意，本地测试请注意修改网站URL！
      js.type = "text/javascript";   // 引入的文件类型
      document.getElementsByTagName("body")[0].appendChild(js)  // 引入到HTML标签
 
