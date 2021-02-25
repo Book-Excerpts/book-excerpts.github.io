@@ -1,29 +1,29 @@
 ﻿/*『书摘。』好句插件 by fly6022*/
-/* 本插件开源遵循 MIT 协议 */
+/* 本插件开源遵循 MIT 协议 https://book.fly6022.fun/ */
 
-/* 书摘好句控制插件 by fly6022 */
+function getdata () {
+    var url = ["https://book.fly6022.fun/note/haoju/1.json"]; // 数据库
+    var request = new XMLHttpRequest();
+        request.open("GET", url); // 采用GET方式
+        request.send(null);
+        request.onload = function() {
+            if (request.status == 200) {
+                hdata = eval(JSON.parse(request.responseText));
+                }
+            else {
+                console.error("ERROR!请求书摘数据库时发生错误！")
+                }
+            }
+    }
 
-function gethaojudata() {  
-    
-    var haojudata = ["note/haoju/1.js","note/haoju/2.js"]; // 枚举好句数据源
+window.onload = getdata();
+setTimeout("getdata()","0");
 
-    var js = document.createElement("script"); 
-     js.src = "https://book.fly6022.fun/" + haojudata[Math.floor(Math.random()*2)]; // 生成随机数、寻找枚举对象并填充HTML标签参数，注意，本地测试请注意修改网站URL！
-     js.type = "text/javascript";   // 引入的文件类型
-     document.getElementsByTagName("body")[0].appendChild(js)  // 引入到HTML标签
-
+function dealdata () {
+    var len=538;// 好句数量（小于等于数据库数据总量）
+    var rnd=Math.floor(Math.random()*len);// 根据好句数量生成随机值
+    document.getElementById("haoju").innerHTML = "<center>" + "“" + hdata.haoju_1[rnd].haoju + "”" + "<br>——" + hdata.haoju_1[rnd].author + "&nbsp;" + hdata.haoju_1[rnd].from + "</center>";
 }
 
-/*function gethaojucss() { 
-
-    var css = document.createElement("link"); 
-     css.href = "https://fonts.googleapis.com/css?family=Noto+Serif+SC:200,300,400,500,600,700,900";
-     css.rel = "stylesheet";
-     document.getElementsByTagName("head")[0].appendChild(css)
-
-}
-*/
-
-setTimeout("gethaojudata()","0"); // 调用数据源
-
-/* setTimeout("gethaojucss()","0"); // 调用CSS */
+setTimeout("dealdata()","50");
+setInterval("dealdata()","15000"); // 调用数据源
