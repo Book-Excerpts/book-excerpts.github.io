@@ -1,10 +1,8 @@
 ﻿/*『书摘。』好句插件 by fly6022*/
 /* 本插件开源遵循 MIT 协议 https://book.fly6022.fun/ */
 
-var website = "https://book.fly6022.fun";
-
 function getdata () {
-    var url = [website + "/note/haoju/1.json"]; // 数据库
+    var url = ["https://book.fly6022.fun/note/haoju/1.json"]; // 数据库
     var request = new XMLHttpRequest();
         request.open("GET", url); // 采用GET方式
         request.send(null);
