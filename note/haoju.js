@@ -4,7 +4,7 @@
 var website = "https://book.fly6022.fun";
 
 function getdata () {
-    var url = [website + "/src/haoju/1.json"]; // 数据库
+    var url = [website + "/note/haoju/1.json"]; // 数据库
     var request = new XMLHttpRequest();
         request.open("GET", url); // 采用GET方式
         request.send(null);
